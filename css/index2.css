@@ -1,0 +1,47 @@
+html {
+        background-color: rgba(0,0,100,0);
+        color:black;
+        margin:10px;
+        background-color:#eee;
+background-image: url('../i.jpeg');
+
+//        background-image: radial-gradient(grey,white);
+}
+body {
+	background-image: url('../i.jpeg');
+}
+.pagetitle {
+	border: 5px white;
+	text-align:center;
+	position:relative;
+}
+footer {
+	position:fixed;
+	text-align:center;
+	bottom : 10px;
+	border : 5px white;
+	height : 30px;
+	width : 97% ;
+	padding: auto;
+}
+#main1{
+	padding:50px;
+}
+#main2{
+	position:absolute;
+	top:10px;
+	right:10px;
+
+}
+#main3{
+	position:absolute;
+	top:10px;
+	right:250px;
+}
+#main4{
+	margin:15%;
+}
+#main{
+	margin:50px;
+  background-color:#eee;
+}

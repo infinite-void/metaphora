@@ -1,0 +1,30 @@
+#main{
+	  margin:30px auto;
+  padding:15px;
+  border:solid;
+  border-radius:10px;
+  background-color:white;
+   margin-left:200px;
+ margin-right:200px;
+
+}
+body{
+	background-image: url('../i.jpeg');
+	background-color:#eee;
+	 font-family:"Trebuchet MS",Helvetica,sans-serif;
+}
+#logout {
+	position:absolute;
+        top:25px;
+        right:25px;
+}
+html {
+        background-color: rgba(0,0,100,0);
+        color:black;
+        margin:10px;
+        background-color:#eee;
+background-image: url('../i.jpeg');
+
+//        background-image: radial-gradient(grey,white);
+}
+

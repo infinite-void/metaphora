@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Metaphora</title>
+                <meta charset = 'utf-8'>
+                <link rel='stylesheet' type='text/css' href='../css/startaride.css' id='csslink'>
+                <script lang='Javascript' id='jshref' src=''></script>
+<style>
+tr {
+        width:200px;
+        height:60px;
+}
+
+</style>
+        </head>
+
+        <body>
+                <div class='pagetitle'>
+                        <p>
+                                <h1 style="text-align:center;padding:10px;">MetaPhora</h1>
+                                <h5 style="text-align:center;padding-bottom:10px;color:#5D5654">" Fuel For A Better Tomorrow "</h5>
+
+                        </p>
+                </div>
+		<div class='credentials' id="main" >
+                         <center>
+                        <p><b>ENTER YOUR RIDE DETAILS</b></p>
+                        <form action='../php/insertlog.php' method='POST'>
+                        <table>
+                                <tr>
+                                        <th width=200px height=60px>
+                                                <label>STARTING PLACE   :</label>
+                                        </th>
+                                        <td>
+                                                <input type=text maxlength=40 id='start' name='start'required='required'/><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <th>
+                                                <label>DESTINATION     :</label>
+                                        </th>
+                                        <td>
+                                                <input type=text maxlength=40 id='dest' name=dest required='required'/><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <th>
+                                                <label>DATE  : </label>
+                                        </th>
+                                        <td>
+                                                <input type=date maxlength=40 id=date name=date required='required'/><br>
+                                        </td>
+                                </tr>
+
+                                </table>
+                                <br>            <input type=submit value='FIND A RIDE!'>
+                        </form>
+                        </center>
+                </div>
+		 <center><button id='logout' onclick='location.href="../php/logout.php"'>LOGOUT</button>
+
+
+
+                <footer>
+<center>   <a href='tandc.html' target='_blank' style=''>Terms & Conditions</a>&nbsp&nbsp&nbsp&nbsp
+                             <a href='contact.html' target=_blank'>Contact Us!</a>&nbsp&nbsp&nbsp&nbsp
+                                <a href='about.html' target='_blank'>About Us</a>&nbsp&nbsp&nbsp&nbsp
+                     </center>
+
+
+                </footer>
+        </body>
+
+</html>
+

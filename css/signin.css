@@ -1,0 +1,23 @@
+#main{
+	 margin:100px auto;
+  padding:15px;
+ margin-left:200px;
+border:solid;
+ margin-right:200px;
+  border-radius:10px;
+  background-color:white;
+}
+body{
+background-image: url('../i.jpeg');
+	background-color:#eee;
+}
+html {
+        background-color: rgba(0,0,100,0);
+        color:black;
+        margin:10px;
+        background-color:#eee;
+background-image: url('../i.jpeg');
+
+//        background-image: radial-gradient(grey,white);
+}
+
